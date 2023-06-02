@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: configuration-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/MauricioAmaya1/repoConfig.git
+          default-label: main
+
+server:
+  port: 8888

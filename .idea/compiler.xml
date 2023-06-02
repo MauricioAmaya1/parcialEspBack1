@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-catalog" />
+        <module name="api-movie" />
+        <module name="configServer" />
+        <module name="service-registry" />
+        <module name="gateway-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-catalog (1)" target="17" />
+      <module name="api-catalog (2)" target="17" />
+      <module name="api-examen" target="17" />
+      <module name="api-movie (1)" target="17" />
+      <module name="api-movie (1) (com.dh)" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-catalog" options="-parameters" />
+      <module name="api-catalog (1)" options="-parameters" />
+      <module name="api-catalog (2)" options="-parameters" />
+      <module name="api-movie" options="-parameters" />
+      <module name="api-movie (1)" options="-parameters" />
+      <module name="api-movie (1) (com.dh)" options="-parameters" />
+      <module name="configServer" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
+      <module name="service-registry" options="-parameters" />
+    </option>
+  </component>
+</project>
